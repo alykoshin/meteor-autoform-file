@@ -21,7 +21,7 @@ Template.afFileUpload.onCreated ->
     unless @_stopInterceptValue
       t = Template.instance()
       if t.value.get() isnt false and t.value.get() isnt ctx.value
-        t.value.set ctx.value
+#        t.value.set ctx.value
         @_stopInterceptValue = true
 
   @_insert = (file) ->
