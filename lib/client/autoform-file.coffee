@@ -21,6 +21,7 @@ Template.afFileUpload.onCreated ->
     unless @_stopInterceptValue
       t = Template.instance()
       if t.value.get() isnt false and t.value.get() isnt ctx.value
+        console.log '!!! Fix for yogiben:autoform-file'
 #        t.value.set ctx.value
         @_stopInterceptValue = true
 
