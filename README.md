@@ -1,4 +1,11 @@
-Autoform File
+Fix for 
+=======
+
+Fix for non-working picture upload.
+
+---
+
+Original README.md - Autoform File
 =============
 
 ### Description ###
